@@ -17,3 +17,11 @@ set ts=4 sw =4 sts=0
 "File manage
 set backupdir=$HOME/.vimbackup/
 set directory=$HOME/.vimbackup/
+
+"File Encoding
+set fileencodings=iso-2022-jp,utf-8,cp932,euc-jp,default,latin
+"他アプリとのクリップボードの共有
+set clipboard=unnamed,autoselect
+
+"Ctrl-cでEsc
+inoremap <C-c> <Esc>
